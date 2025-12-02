@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#F9F9F9"
+    android:layout_margin="4dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#333" />
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user@email.com"
+        android:textSize="12sp"
+        android:textColor="#666"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:id="@+id/llRegistrationDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvRegistrationName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: -"
+            android:textSize="11sp"
+            android:textColor="#888"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvRegistrationEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: -"
+            android:textSize="11sp"
+            android:textColor="#888"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvRegistrationPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: -"
+            android:textSize="11sp"
+            android:textColor="#888"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvStudentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student ID: -"
+            android:textSize="11sp"
+            android:textColor="#888"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRegisteredAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registered: -"
+        android:textSize="10sp"
+        android:textColor="#999"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
+

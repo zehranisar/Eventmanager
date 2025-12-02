@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary Colors - Deep Teal -->
+    <color name="primary">#0D9488</color>
+    <color name="primary_dark">#0F766E</color>
+    <color name="primary_light">#14B8A6</color>
+    <color name="primary_variant">#115E59</color>
+    
+    <!-- Accent Colors - Coral Orange -->
+    <color name="accent">#F97316</color>
+    <color name="accent_light">#FB923C</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#0D9488</color>
+    <color name="gradient_end">#0F766E</color>
+    <color name="gradient_accent_start">#F97316</color>
+    <color name="gradient_accent_end">#EA580C</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#F0FDFA</color>
+    <color name="background_secondary">#CCFBF1</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#134E4A</color>
+    <color name="text_secondary">#5EEAD4</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_hint">#99F6E4</color>
+    <color name="text_dark">#1F2937</color>
+    <color name="text_medium">#6B7280</color>
+    
+    <!-- Status Colors -->
+    <color name="divider">#D1D5DB</color>
+    <color name="error">#DC2626</color>
+    <color name="error_light">#FEE2E2</color>
+    <color name="success">#059669</color>
+    <color name="success_light">#D1FAE5</color>
+    <color name="warning">#D97706</color>
+    
+    <!-- Admin/Student Colors -->
+    <color name="admin_color">#7C3AED</color>
+    <color name="student_color">#0D9488</color>
+    
+    <!-- Overlay -->
+    <color name="overlay_dark">#80000000</color>
+    <color name="shimmer">#E5E7EB</color>
+</resources>

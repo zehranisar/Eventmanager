@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Event Manager</string>
+    
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="back_to_login">Back to Login</string>
+    
+    <!-- Events -->
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="event_details">Event Details</string>
+    <string name="register">Register</string>
+    <string name="registered">Registered</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="reminder_set">Reminder Set</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_description">Description</string>
+    <string name="event_date">Date</string>
+    <string name="event_time">Time</string>
+    <string name="event_location">Location</string>
+    <string name="event_category">Category</string>
+    <string name="no_events">No upcoming events</string>
+    <string name="logout">Logout</string>
+    
+    <!-- Messages -->
+    <string name="login_success">Login successful!</string>
+    <string name="signup_success">Account created successfully!</string>
+    <string name="registration_success">Successfully registered for event</string>
+    <string name="reminder_set_success">Reminder set successfully</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_password">Password must be at least 6 characters</string>
+    <string name="password_mismatch">Passwords do not match</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+</resources>

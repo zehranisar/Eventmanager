@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#CCFBF1"
+        android:pathData="M60,60 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0" />
+    
+    <!-- Calendar Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,38 L90,38 Q95,38 95,43 L95,90 Q95,95 90,95 L30,95 Q25,95 25,90 L25,43 Q25,38 30,38 Z" />
+    
+    <!-- Calendar Header -->
+    <path
+        android:fillColor="#0D9488"
+        android:pathData="M30,38 L90,38 Q95,38 95,43 L95,55 L25,55 L25,43 Q25,38 30,38 Z" />
+    
+    <!-- Calendar Rings -->
+    <path
+        android:strokeColor="#0F766E"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M42,32 L42,45" />
+    
+    <path
+        android:strokeColor="#0F766E"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M78,32 L78,45" />
+    
+    <!-- Star Event Marker -->
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M60,62 L63.5,72 L74,72.5 L66,79 L68,90 L60,84 L52,90 L54,79 L46,72.5 L56.5,72 Z" />
+    
+    <!-- Small Calendar Dots -->
+    <path
+        android:fillColor="#0D9488"
+        android:fillAlpha="0.6"
+        android:pathData="M35,65 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    
+    <path
+        android:fillColor="#0D9488"
+        android:fillAlpha="0.6"
+        android:pathData="M85,65 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    
+    <path
+        android:fillColor="#0D9488"
+        android:fillAlpha="0.6"
+        android:pathData="M35,88 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    
+    <path
+        android:fillColor="#0D9488"
+        android:fillAlpha="0.6"
+        android:pathData="M85,88 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+
+</vector>
+
