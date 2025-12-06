@@ -125,9 +125,10 @@ public class ApiConfig {
             OkHttpClient client = new OkHttpClient.Builder()
                     .addInterceptor(loggingInterceptor)
                     .addInterceptor(authInterceptor)
-                    .connectTimeout(10, TimeUnit.SECONDS)  // Reduced timeout
-                    .readTimeout(15, TimeUnit.SECONDS)
-                    .writeTimeout(15, TimeUnit.SECONDS)
+                    .connectTimeout(30, TimeUnit.SECONDS)  // Increased timeout for USB connection
+                    .readTimeout(30, TimeUnit.SECONDS)
+                    .writeTimeout(30, TimeUnit.SECONDS)
+                    .retryOnConnectionFailure(true)  // Retry on connection failure
                     .build();
             
             retrofit = new Retrofit.Builder()
