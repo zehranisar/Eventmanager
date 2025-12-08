@@ -188,8 +188,25 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<AuthResponse> call, Throwable t) {
                 progressDialog.dismiss();
-                Toast.makeText(LoginActivity.this, 
-                    "Network error: " + t.getMessage(), Toast.LENGTH_SHORT).show();
+                String errorMessage = "Network error: ";
+                
+                if (t.getMessage() != null) {
+                    if (t.getMessage().contains("unexpected end of stream") || 
+                        t.getMessage().contains("Connection reset") ||
+                        t.getMessage().contains("Failed to connect")) {
+                        errorMessage = "Cannot connect to server. Please check:\n" +
+                                      "1. Server is running\n" +
+                                      "2. USB debugging is enabled\n" +
+                                      "3. Run: adb reverse tcp:8000 tcp:8000";
+                    } else {
+                        errorMessage += t.getMessage();
+                    }
+                } else {
+                    errorMessage += "Unknown error occurred";
+                }
+                
+                Toast.makeText(LoginActivity.this, errorMessage, Toast.LENGTH_LONG).show();
+                t.printStackTrace();
             }
         });
     }
