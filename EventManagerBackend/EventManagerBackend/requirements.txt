@@ -1,0 +1,31 @@
+# Django Framework
+Django==5.2.8
+
+# Django REST Framework
+djangorestframework==3.16.1
+
+# JWT Authentication
+djangorestframework-simplejwt==5.5.1
+
+# CORS Headers for API access
+django-cors-headers==4.9.0
+
+# PostgreSQL Database Adapter
+psycopg2-binary==2.9.11
+
+# Image Processing (Pillow)
+Pillow==12.0.0
+
+# Timezone Support
+pytz==2025.2
+tzdata==2025.2
+
+# JWT Library (dependency of djangorestframework-simplejwt)
+PyJWT==2.10.1
+
+# SQL Parser (Django dependency)
+sqlparse==0.5.3
+
+# ASGI Reference Implementation (Django dependency)
+asgiref==3.11.0
+
